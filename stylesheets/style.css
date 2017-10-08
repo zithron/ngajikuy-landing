@@ -1,0 +1,530 @@
+/* line 1, ../sass/reset.scss */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  height: 100%;
+}
+
+/* line 25, ../sass/style.scss */
+.royal-text {
+  color: #4183D7;
+}
+
+/* line 30, ../sass/style.scss */
+.title:after {
+  content: '';
+  display: block;
+  width: 30px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-bottom: 2px solid royalblue;
+  border-radius: 8px;
+}
+
+/* line 42, ../sass/style.scss */
+.title-white:after {
+  content: '';
+  display: block;
+  width: 30px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-bottom: 2px solid white;
+  border-radius: 8px;
+}
+
+/* line 53, ../sass/style.scss */
+.btn-large {
+  border-radius: 1000px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 15spx;
+  background-color: white;
+  color: #64AFD2;
+  transition: all .3s ease-in-out;
+  border: 1px solid white;
+  box-shadow: none;
+  letter-spacing: .5px;
+  padding: 0 35px;
+}
+/* line 65, ../sass/style.scss */
+.btn-large:hover {
+  background-color: transparent;
+  color: white;
+  transition: all .3s ease-in-out;
+  box-shadow: none;
+  border: 1px solid white;
+  letter-spacing: .5px;
+}
+
+/* line 75, ../sass/style.scss */
+.btn-large-blue {
+  border-radius: 1000px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 15spx;
+  background-color: #64AFD2;
+  color: white;
+  transition: all .3s ease-in-out;
+  border: 1px solid white;
+  box-shadow: none;
+  letter-spacing: .5px;
+  padding: 0 35px;
+  border: 1px solid #64AFD2;
+}
+/* line 88, ../sass/style.scss */
+.btn-large-blue:hover {
+  background-color: transparent;
+  color: #64AFD2;
+  transition: all .3s ease-in-out;
+  box-shadow: none;
+  border: 1px solid white;
+  letter-spacing: .5px;
+  border: 1px solid #64AFD2;
+}
+
+/* line 99, ../sass/style.scss */
+.btn-blue {
+  border-radius: 100px;
+  background-color: #64AFD2;
+  color: white;
+  transition: all .3s ease-in-out;
+  border: 1px solid white;
+  box-shadow: none;
+  border: 1px solid #64AFD2;
+}
+/* line 112, ../sass/style.scss */
+.btn-blue:hover {
+  background-color: transparent;
+  color: #64AFD2;
+  transition: all .3s ease-in-out;
+  box-shadow: none;
+  border: 1px solid white;
+  letter-spacing: .5px;
+  border: 1px solid #64AFD2;
+}
+
+/* line 123, ../sass/style.scss */
+.file-field {
+  position: relative;
+  padding-left: 11.25px;
+  padding-right: 11.25px;
+}
+
+/* line 129, ../sass/style.scss */
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+  color: #64AFD2;
+  margin-right: 0px;
+  transition: color .3s ease;
+  text-transform: none;
+}
+
+/* line 136, ../sass/style.scss */
+.bodi {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+/* line 143, ../sass/style.scss */
+input:not([type]).valid,
+input:not([type]):focus.valid,
+input[type=text].valid,
+input[type=text]:focus.valid,
+input[type=password].valid,
+input[type=password]:focus.valid,
+input[type=email].valid,
+input[type=email]:focus.valid,
+input[type=url].valid,
+input[type=url]:focus.valid,
+input[type=time].valid,
+input[type=time]:focus.valid,
+input[type=date].valid,
+input[type=date]:focus.valid,
+input[type=datetime].valid,
+input[type=datetime]:focus.valid,
+input[type=datetime-local].valid,
+input[type=datetime-local]:focus.valid,
+input[type=tel].valid,
+input[type=tel]:focus.valid,
+input[type=number].valid,
+input[type=number]:focus.valid,
+input[type=search].valid,
+input[type=search]:focus.valid,
+textarea.materialize-textarea.valid,
+textarea.materialize-textarea:focus.valid {
+  border-bottom: 1px solid #64AFD2;
+  box-shadow: 0 1px 0 0 #64AFD2;
+}
+
+/* line 173, ../sass/style.scss */
+input:not([type]):focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #64AFD2;
+  box-shadow: 0 1px 0 0 #64AFD2;
+}
+
+/* line 190, ../sass/style.scss */
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:focus:not([readonly]) + label,
+input[type=password]:focus:not([readonly]) + label,
+input[type=email]:focus:not([readonly]) + label,
+input[type=url]:focus:not([readonly]) + label,
+input[type=time]:focus:not([readonly]) + label,
+input[type=date]:focus:not([readonly]) + label,
+input[type=datetime]:focus:not([readonly]) + label,
+input[type=datetime-local]:focus:not([readonly]) + label,
+input[type=tel]:focus:not([readonly]) + label,
+input[type=number]:focus:not([readonly]) + label,
+input[type=search]:focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #64afd2;
+}
+
+/* line 207, ../sass/style.scss */
+nav {
+  background-color: transparent;
+  box-shadow: none;
+}
+/* line 213, ../sass/style.scss */
+nav ul li .active:after {
+  content: '';
+  display: block;
+  width: 20px;
+  margin: 0 auto;
+  margin-top: -15px;
+  border-bottom: 1px solid white;
+  border-radius: 8px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/* line 224, ../sass/style.scss */
+nav ul li a {
+  -webkit-transition: all 0.9s ease-in-out;
+  -moz-transition: all 0.9s ease-in-out;
+  -ms-transition: all 0.9s ease-in-out;
+  transition: all 0.9s ease-in-out;
+}
+/* line 226, ../sass/style.scss */
+nav ul li a:hover {
+  background-color: transparent;
+}
+/* line 228, ../sass/style.scss */
+nav ul li a:hover:after {
+  content: '';
+  display: block;
+  width: 20px;
+  margin: 0 auto;
+  margin-top: -15px;
+  border-bottom: 1px solid white;
+  border-radius: 8px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 246, ../sass/style.scss */
+.nav-wrapper .brand-logo img {
+  width: 13%;
+  padding: 10px;
+}
+@media screen and (max-width: 480px) {
+  /* line 246, ../sass/style.scss */
+  .nav-wrapper .brand-logo img {
+    width: 40%;
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 246, ../sass/style.scss */
+  .nav-wrapper .brand-logo img {
+    width: 50%;
+    padding: 15px;
+  }
+}
+
+/* line 262, ../sass/style.scss */
+#index-banner {
+  background-color: #f3f6fc;
+  background: linear-gradient(135deg, rgba(65, 131, 215, 0.97), rgba(133, 216, 206, 0.97)), url(../img/coding.jpg);
+  background-size: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  -webkit-clip-path: url("#clipping");
+  clip-path: url("#clipping");
+  z-index: 101;
+  position: relative;
+  padding-bottom: 100px;
+}
+/* line 275, ../sass/style.scss */
+#index-banner .section .container h1 {
+  font-size: 3em;
+}
+
+/* line 285, ../sass/style.scss */
+#about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: white;
+  height: 320px;
+}
+/* line 291, ../sass/style.scss */
+#about .container .section {
+  border-radius: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #fcfcfc;
+  box-shadow: 5px 5px 50px rgba(67, 38, 100, 0.15);
+  margin-top: -230px;
+  z-index: 102;
+  position: relative;
+  height: auto;
+}
+@media screen and (max-width: 480px) {
+  /* line 291, ../sass/style.scss */
+  #about .container .section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -260px;
+  }
+}
+
+/* line 315, ../sass/style.scss */
+#feature {
+  padding: 100px 0;
+  margin-top: -50px;
+  background: linear-gradient(135deg, #4183D7, #85d8ce);
+  color: white;
+  z-index: 2;
+}
+@media screen and (max-width: 480px) {
+  /* line 322, ../sass/style.scss */
+  #feature .container .section {
+    margin-top: 120px;
+  }
+}
+
+/* line 331, ../sass/style.scss */
+#timeline {
+  background-color: #f3f6fc;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* line 339, ../sass/style.scss */
+#contact {
+  color: white;
+  position: relative;
+  z-index: 10;
+}
+/* line 344, ../sass/style.scss */
+#contact .container .section {
+  border-radius: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(135deg, #4183D7, #85d8ce);
+  box-shadow: 5px 5px 50px rgba(67, 38, 100, 0.15);
+  margin-top: -80px;
+  position: relative;
+  height: auto;
+}
+@media screen and (max-width: 480px) {
+  /* line 344, ../sass/style.scss */
+  #contact .container .section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -80px;
+  }
+}
+
+/* line 365, ../sass/style.scss */
+#sponsor {
+  background-color: white;
+  padding: 100px 0;
+  position: relative;
+  z-index: -10;
+}
+/* line 370, ../sass/style.scss */
+#sponsor .container {
+  background: white;
+}
+
+/* line 377, ../sass/style.scss */
+.page-footer {
+  padding-top: 80px;
+  background-color: white;
+  background: linear-gradient(135deg, #4183D7, #85d8ce);
+  -webkit-clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 100%);
+  -webkit-clip-path: url("#clipping1");
+  clip-path: url("#clipping1");
+  z-index: 1;
+  position: relative;
+}
+/* line 393, ../sass/style.scss */
+.page-footer .container .row div a {
+  color: white;
+  padding: 0 5px;
+}
+/* line 400, ../sass/style.scss */
+.page-footer .footer-copyright {
+  padding: 0;
+}
+/* line 403, ../sass/style.scss */
+.page-footer .footer-copyright .container p {
+  color: white;
+  line-height: 1em;
+}
+/* line 406, ../sass/style.scss */
+.page-footer .footer-copyright .container p a {
+  color: white;
+  padding: 0 5px;
+}
+
+/* line 416, ../sass/style.scss */
+.main {
+  color: white;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: table;
+  background: linear-gradient(135deg, #85d8ce, #4183d7);
+}
+/* line 423, ../sass/style.scss */
+.main .main-content {
+  color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+}
+/* line 430, ../sass/style.scss */
+.main .main-content .logo {
+  vertical-align: middle;
+  margin: 10px;
+  height: 45px;
+  width: auto;
+}
+/* line 436, ../sass/style.scss */
+.main .main-content .card {
+  width: 25%;
+  background: white;
+  color: black;
+}
+@media screen and (max-width: 480px) {
+  /* line 436, ../sass/style.scss */
+  .main .main-content .card {
+    width: 98%;
+  }
+}
+/* line 446, ../sass/style.scss */
+.main .main-content .card .garis {
+  width: 100%;
+  height: 1px;
+  opacity: 0.2;
+  background-color: darkgrey;
+}
+/* line 452, ../sass/style.scss */
+.main .main-content .card .kanantext {
+  padding-left: 5%;
+  text-align: left;
+  padding-right: 5%;
+}
+
+/* line 462, ../sass/style.scss */
+#main-register {
+  color: white;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: table;
+  background: linear-gradient(135deg, #85d8ce, #4183d7);
+}
+/* line 469, ../sass/style.scss */
+#main-register .main-content {
+  color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+}
+/* line 476, ../sass/style.scss */
+#main-register .main-content .logo {
+  vertical-align: middle;
+  margin: 10px;
+  height: 45px;
+  width: auto;
+}
+/* line 482, ../sass/style.scss */
+#main-register .main-content .card {
+  width: 40%;
+  background: white;
+  color: black;
+}
+@media screen and (max-width: 480px) {
+  /* line 482, ../sass/style.scss */
+  #main-register .main-content .card {
+    width: 98%;
+  }
+}
+/* line 489, ../sass/style.scss */
+#main-register .main-content .card .card-content {
+  padding: 15px;
+}
+/* line 493, ../sass/style.scss */
+#main-register .main-content .card .garis {
+  width: 100%;
+  height: 1px;
+  opacity: 0.2;
+  background-color: darkgrey;
+}
+/* line 499, ../sass/style.scss */
+#main-register .main-content .card .kanantext {
+  padding-left: 5%;
+  text-align: left;
+  padding-right: 5%;
+}
+
+/* line 511, ../sass/style.scss */
+#biodata .bg nav {
+  background: linear-gradient(135deg, #4183d7, #85d8ce);
+  padding-bottom: 6rem;
+}
+/* line 517, ../sass/style.scss */
+#biodata .bg nav .nav-wrapper .container .brand-logo .logo {
+  vertical-align: middle;
+  margin: 10px;
+  width: 13%;
+  height: auto;
+}
+/* line 528, ../sass/style.scss */
+#biodata .form-biodata {
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+/* line 531, ../sass/style.scss */
+#biodata .form-biodata .title-biodata {
+  padding-bottom: 30px;
+}
