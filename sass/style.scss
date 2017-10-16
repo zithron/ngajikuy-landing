@@ -324,8 +324,6 @@ nav {
     background-size: cover;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-    // -webkit-clip-path: url("#clipping");
-    // clip-path: url("#clipping");
     position: relative;
     padding-bottom: 100px;
     .section {
@@ -371,24 +369,11 @@ nav {
 
 //download
 #download {
-    background: white;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-//donation
-#donation {
-    -webkit-transform: skew(0deg, -2deg);
-    -ms-transform: skew(0deg, -2deg);
-    transform: skew(0deg, -2deg);
     background: linear-gradient(135deg, rgba(73, 221, 115, 1), rgba(55, 182, 171, 1));
     height: auto;
     padding-top: 100px;
     padding-bottom: 100px;
     .section {
-        -webkit-transform: skew(0deg,2deg);
-        -ms-transform: skew(0deg,2deg);
-        transform: skew(0deg,2deg);
         .collection {
             border: none;
             .collection-item {
@@ -398,29 +383,18 @@ nav {
     }
 }
 
-//blog
-#blog {
-    -webkit-transform: skew(0deg, -2deg);
-    -ms-transform: skew(0deg, -2deg);
-    transform: skew(0deg, -2deg);
+//donation
+#donation {
     padding-top: 100px;
     padding-bottom: 100px;
     position: relative;
     background-color: #FAFAFA;
     .container {
-        .section {
-            -webkit-transform: skew(0deg,2deg);
-            -ms-transform: skew(0deg,2deg);
-            transform: skew(0deg,2deg);
-        }
     }
 }
 
 //sponsor
 #sponsor {
-    -webkit-transform: skew(0deg, -2deg);
-    -ms-transform: skew(0deg, -2deg);
-    transform: skew(0deg, -2deg);
     background-color: white;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -428,9 +402,6 @@ nav {
     .container {
         background: white;
         .section {
-            -webkit-transform: skew(0deg,2deg);
-            -ms-transform: skew(0deg,2deg);
-            transform: skew(0deg,2deg);
             .row {
                 .col {
                     img {
@@ -450,10 +421,15 @@ nav {
 
 //footer
 .page-footer {
+    -webkit-clip-path: url("#clipping1");
+    clip-path: url("#clipping1");
+    // -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+    // -moz-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+    // -o-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+    // clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
     padding-top: 30px;
-    background-color: white;
-    background: #353736; //    z-index: 1;
-    position: relative; //    padding-bottom: 100px;
+    background: #353736;
+    position: relative;
     .container {
         .row {
             div {
@@ -465,6 +441,7 @@ nav {
         }
     }
     .footer-copyright {
+        border-bottom: 1px solid #333534;
         padding: 0;
         background-color: #333534;
         .container {
@@ -478,4 +455,8 @@ nav {
             }
         }
     }
+}
+
+svg {
+    display: block;
 }

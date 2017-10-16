@@ -334,16 +334,16 @@ nav ul li:last-child a:hover:after {
   position: relative;
   padding-bottom: 100px;
 }
-/* line 333, ../sass/style.scss */
+/* line 331, ../sass/style.scss */
 #index-banner .section .container h1 {
   font-size: 4em;
 }
-/* line 336, ../sass/style.scss */
+/* line 334, ../sass/style.scss */
 #index-banner .section .container .header {
   font-weight: 100;
 }
 
-/* line 345, ../sass/style.scss */
+/* line 343, ../sass/style.scss */
 #feature {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -351,123 +351,96 @@ nav ul li:last-child a:hover:after {
   position: relative;
   height: auto;
 }
-/* line 353, ../sass/style.scss */
+/* line 351, ../sass/style.scss */
 #feature .container .section .row {
   margin-bottom: 20px;
 }
 
-/* line 366, ../sass/style.scss */
+/* line 364, ../sass/style.scss */
 #testimonial {
   background: #FAFAFA;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-/* line 373, ../sass/style.scss */
+/* line 371, ../sass/style.scss */
 #download {
-  background: white;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-/* line 380, ../sass/style.scss */
-#donation {
-  -webkit-transform: skew(0deg, -2deg);
-  -ms-transform: skew(0deg, -2deg);
-  transform: skew(0deg, -2deg);
   background: linear-gradient(135deg, #49dd73, #37b6ab);
   height: auto;
   padding-top: 100px;
   padding-bottom: 100px;
 }
-/* line 388, ../sass/style.scss */
-#donation .section {
-  -webkit-transform: skew(0deg, 2deg);
-  -ms-transform: skew(0deg, 2deg);
-  transform: skew(0deg, 2deg);
-}
-/* line 392, ../sass/style.scss */
-#donation .section .collection {
+/* line 377, ../sass/style.scss */
+#download .section .collection {
   border: none;
 }
-/* line 394, ../sass/style.scss */
-#donation .section .collection .collection-item {
+/* line 379, ../sass/style.scss */
+#download .section .collection .collection-item {
   background-color: white;
 }
 
-/* line 402, ../sass/style.scss */
-#blog {
-  -webkit-transform: skew(0deg, -2deg);
-  -ms-transform: skew(0deg, -2deg);
-  transform: skew(0deg, -2deg);
+/* line 387, ../sass/style.scss */
+#donation {
   padding-top: 100px;
   padding-bottom: 100px;
   position: relative;
   background-color: #FAFAFA;
 }
-/* line 411, ../sass/style.scss */
-#blog .container .section {
-  -webkit-transform: skew(0deg, 2deg);
-  -ms-transform: skew(0deg, 2deg);
-  transform: skew(0deg, 2deg);
-}
 
-/* line 420, ../sass/style.scss */
+/* line 397, ../sass/style.scss */
 #sponsor {
-  -webkit-transform: skew(0deg, -2deg);
-  -ms-transform: skew(0deg, -2deg);
-  transform: skew(0deg, -2deg);
   background-color: white;
   padding-top: 100px;
   padding-bottom: 100px;
   position: relative;
 }
-/* line 428, ../sass/style.scss */
+/* line 402, ../sass/style.scss */
 #sponsor .container {
   background: white;
 }
-/* line 430, ../sass/style.scss */
-#sponsor .container .section {
-  -webkit-transform: skew(0deg, 2deg);
-  -ms-transform: skew(0deg, 2deg);
-  transform: skew(0deg, 2deg);
-}
-/* line 436, ../sass/style.scss */
+/* line 407, ../sass/style.scss */
 #sponsor .container .section .row .col img {
   filter: grayscale(100%);
   cursor: pointer;
   transition: all .3s ease-in-out;
 }
-/* line 440, ../sass/style.scss */
+/* line 411, ../sass/style.scss */
 #sponsor .container .section .row .col img:hover {
   filter: grayscale(0%);
   transition: all .3s ease-in-out;
 }
 
-/* line 452, ../sass/style.scss */
+/* line 423, ../sass/style.scss */
 .page-footer {
+  -webkit-clip-path: url("#clipping1");
+  clip-path: url("#clipping1");
   padding-top: 30px;
-  background-color: white;
   background: #353736;
   position: relative;
 }
-/* line 460, ../sass/style.scss */
+/* line 436, ../sass/style.scss */
 .page-footer .container .row div a {
   color: white;
   padding: 0 5px;
 }
-/* line 467, ../sass/style.scss */
+/* line 443, ../sass/style.scss */
 .page-footer .footer-copyright {
+  border-bottom: 1px solid #333534;
   padding: 0;
   background-color: #333534;
 }
-/* line 471, ../sass/style.scss */
+/* line 448, ../sass/style.scss */
 .page-footer .footer-copyright .container p {
   color: white;
   line-height: 1em;
 }
-/* line 474, ../sass/style.scss */
+/* line 451, ../sass/style.scss */
 .page-footer .footer-copyright .container p a {
   color: white;
   padding: 0 5px;
+}
+
+/* line 460, ../sass/style.scss */
+svg {
+  display: block;
 }
