@@ -12,6 +12,7 @@
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link rel="stylesheet" href="stylesheets/style.css" rel="stylesheet" media="screen,projection">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
 </head>
 
 <body>
@@ -50,7 +51,8 @@
                     <div class="col l6">
                         <h1 class="header white-text text-lighten-2"><b>Stay Connected <br> with Ta'lim</b></h1>
                         <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
-                        <a href="background1.jpg" id="download-button" class="btn-large waves-effect waves-light lighten-1">Get the tickets!</a>
+                        <!-- <a href="background1.jpg" id="download-button" class="btn-large waves-effect waves-light lighten-1">Get the tickets!</a> -->
+                        <a class="hoverable btn-floating btn-circle waves-effect waves-light white modal-trigger" href="#modalvideo"><i class="zmdi zmdi-play" style="color: #49dd9b"></i></a>
                     </div>
                     <div class="col l6">
                     </div>
@@ -219,14 +221,13 @@
             </div>
         </div>
     </footer>
-    <svg width="0" height="0" class=" drawsvg-initialized ">
-        <defs>
-            <clipPath id="clipping1" clipPathUnits="objectBoundingBox">
-                <polygon points="0 0, 1 0.1, 1 1, 0 1"></polygon>
-            </clipPath>
-        </defs>
-    </svg>
     <!-- End of Footer -->
+    <div id="modalvideo" class="modal" style="z-index: 1003; display: none; opacity: 0; transform: scaleX(0.7); top: 331.087px;">
+        <div class="video-container">
+            <iframe id="teaser" width="560" height="315" src="https://www.youtube.com/embed/q48Ea45Nl20?autoplay=1" frameborder="0" allowfullscreen></iframe>
+            <!-- <iframe src="https://www.youtube.com/embed/Z1kzveRhF0k" allowfullscreen="" width="853" height="480" frameborder="0"></iframe> -->
+        </div>
+    </div>
     <!-- Modal Structure -->
     <!--    <div id="modal1" class="modal modal-fixed-footer">
         <div class="modal-content">
