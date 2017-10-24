@@ -22,6 +22,14 @@
             }
         });
 
+        $('.main-carousel').flickity({
+  // options
+  cellAlign: 'left',
+  contain: true,
+  pageDots: false
+});
+
 
     }); // end of document ready
 })(jQuery); // end of jQuery name space
+
