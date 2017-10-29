@@ -354,10 +354,10 @@ nav {
     background-color: #f3f6fc;
     background: linear-gradient(135deg, rgba(73, 221, 115, 1), rgba(55, 182, 171, 1));
     background-size: cover;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     position: relative;
-    padding-bottom: 100px; // padding-top: 100px;
+    padding-bottom: 100px; 
+    padding-top: 80px;
+    height: 600px;
     .section {
         .container {
             h1 {
@@ -366,14 +366,50 @@ nav {
             .header {
                 font-weight: 100;
             }
-            .row {}
+            .row {
+                img {
+                    height: 600px;
+                    z-index: 1000;
+                    position: relative;
+                }
+            }
         }
     }
 }
 
+.clipping {
+    -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
+    height: 50px;
+    background-color: white;
+    width: 100%;
+    z-index: 2;
+    margin-top: -50px;
+    position: absolute;
+}
+.clipping-gray {
+    -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
+    height: 50px;
+    background-color: #fafafa;
+    width: 100%;
+    z-index: 2;
+    margin-top: -50px;
+    position: absolute;
+}
+.clipping-gray-inverse {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 0);
+    height: 50px;
+    background-color: #fafafa;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+}
+
 //feature
 #feature {
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 100px;
     background-color: white;
     position: relative;
@@ -402,11 +438,9 @@ nav {
 //download
 #download {
     background: linear-gradient(135deg, rgba(73, 221, 115, 1), rgba(55, 182, 171, 1));
-    -webkit-clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
-    clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
-    height: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    height: 500px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     .section {
         .collection {
             border: none;

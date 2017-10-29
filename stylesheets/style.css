@@ -370,10 +370,10 @@ nav ul li:last-child a:hover:after {
   background-color: #f3f6fc;
   background: linear-gradient(135deg, #49dd73, #37b6ab);
   background-size: cover;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
   position: relative;
   padding-bottom: 100px;
+  padding-top: 80px;
+  height: 600px;
 }
 /* line 363, ../sass/style.scss */
 #index-banner .section .container h1 {
@@ -383,46 +383,85 @@ nav ul li:last-child a:hover:after {
 #index-banner .section .container .header {
   font-weight: 100;
 }
+/* line 370, ../sass/style.scss */
+#index-banner .section .container .row img {
+  height: 600px;
+  z-index: 1000;
+  position: relative;
+}
 
-/* line 375, ../sass/style.scss */
+/* line 380, ../sass/style.scss */
+.clipping {
+  -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
+  height: 50px;
+  background-color: white;
+  width: 100%;
+  z-index: 2;
+  margin-top: -50px;
+  position: absolute;
+}
+
+/* line 390, ../sass/style.scss */
+.clipping-gray {
+  -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
+  height: 50px;
+  background-color: #fafafa;
+  width: 100%;
+  z-index: 2;
+  margin-top: -50px;
+  position: absolute;
+}
+
+/* line 400, ../sass/style.scss */
+.clipping-gray-inverse {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 0);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 0);
+  height: 50px;
+  background-color: #fafafa;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+}
+
+/* line 411, ../sass/style.scss */
 #feature {
-  padding-top: 100px;
+  padding-top: 150px;
   padding-bottom: 100px;
   background-color: white;
   position: relative;
   height: auto;
 }
-/* line 383, ../sass/style.scss */
+/* line 419, ../sass/style.scss */
 #feature .container .section .row {
   margin-bottom: 20px;
 }
 
-/* line 396, ../sass/style.scss */
+/* line 432, ../sass/style.scss */
 #testimonial {
   background: #FAFAFA;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-/* line 403, ../sass/style.scss */
+/* line 439, ../sass/style.scss */
 #download {
   background: linear-gradient(135deg, #49dd73, #37b6ab);
-  -webkit-clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
-  clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
-  height: auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  height: 500px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
-/* line 411, ../sass/style.scss */
+/* line 445, ../sass/style.scss */
 #download .section .collection {
   border: none;
 }
-/* line 413, ../sass/style.scss */
+/* line 447, ../sass/style.scss */
 #download .section .collection .collection-item {
   background-color: white;
 }
 
-/* line 421, ../sass/style.scss */
+/* line 455, ../sass/style.scss */
 #donation {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -430,52 +469,52 @@ nav ul li:last-child a:hover:after {
   background-color: #FAFAFA;
 }
 
-/* line 430, ../sass/style.scss */
+/* line 464, ../sass/style.scss */
 #sponsor {
   background-color: white;
   padding-top: 100px;
   padding-bottom: 100px;
   position: relative;
 }
-/* line 435, ../sass/style.scss */
+/* line 469, ../sass/style.scss */
 #sponsor .container {
   background: white;
 }
-/* line 440, ../sass/style.scss */
+/* line 474, ../sass/style.scss */
 #sponsor .container .section .row .col img {
   filter: grayscale(100%);
   cursor: pointer;
   transition: all .3s ease-in-out;
 }
-/* line 444, ../sass/style.scss */
+/* line 478, ../sass/style.scss */
 #sponsor .container .section .row .col img:hover {
   filter: grayscale(0%);
   transition: all .3s ease-in-out;
 }
 
-/* line 456, ../sass/style.scss */
+/* line 490, ../sass/style.scss */
 .page-footer {
   padding-top: 30px;
   background: #353736;
   position: relative;
 }
-/* line 463, ../sass/style.scss */
+/* line 497, ../sass/style.scss */
 .page-footer .container .row div a {
   color: white;
   padding: 0 5px;
 }
-/* line 470, ../sass/style.scss */
+/* line 504, ../sass/style.scss */
 .page-footer .footer-copyright {
   border-bottom: 1px solid #333534;
   padding: 0;
   background-color: #333534;
 }
-/* line 475, ../sass/style.scss */
+/* line 509, ../sass/style.scss */
 .page-footer .footer-copyright .container p {
   color: white;
   line-height: 1em;
 }
-/* line 478, ../sass/style.scss */
+/* line 512, ../sass/style.scss */
 .page-footer .footer-copyright .container p a {
   color: white;
   padding: 0 5px;
