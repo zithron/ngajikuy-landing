@@ -369,7 +369,7 @@ nav {
             .row {
                 img {
                     height: 600px;
-                    z-index: 1000;
+                    z-index: 10;
                     position: relative;
                 }
             }
@@ -417,11 +417,15 @@ nav {
     .container {
         .section {
             .row {
-                margin-bottom: 20px;
                 .col {
-                    .card-stacked {
-                        .card-content {}
+                   .row {
+                    .col {
+                        img {
+                            width: 65%;
+                            margin-top: 18px;
+                        }
                     }
+                   }
                 }
             }
         }
