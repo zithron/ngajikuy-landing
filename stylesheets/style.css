@@ -386,7 +386,7 @@ nav ul li:last-child a:hover:after {
 /* line 370, ../sass/style.scss */
 #index-banner .section .container .row img {
   height: 600px;
-  z-index: 1000;
+  z-index: 10;
   position: relative;
 }
 
@@ -433,35 +433,36 @@ nav ul li:last-child a:hover:after {
   position: relative;
   height: auto;
 }
-/* line 419, ../sass/style.scss */
-#feature .container .section .row {
-  margin-bottom: 20px;
+/* line 423, ../sass/style.scss */
+#feature .container .section .row .col .row .col img {
+  width: 65%;
+  margin-top: 18px;
 }
 
-/* line 432, ../sass/style.scss */
+/* line 436, ../sass/style.scss */
 #testimonial {
   background: #FAFAFA;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-/* line 439, ../sass/style.scss */
+/* line 443, ../sass/style.scss */
 #download {
   background: linear-gradient(135deg, #49dd73, #37b6ab);
   height: 500px;
   padding-top: 80px;
   padding-bottom: 80px;
 }
-/* line 445, ../sass/style.scss */
+/* line 449, ../sass/style.scss */
 #download .section .collection {
   border: none;
 }
-/* line 447, ../sass/style.scss */
+/* line 451, ../sass/style.scss */
 #download .section .collection .collection-item {
   background-color: white;
 }
 
-/* line 455, ../sass/style.scss */
+/* line 459, ../sass/style.scss */
 #donation {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -469,52 +470,52 @@ nav ul li:last-child a:hover:after {
   background-color: #FAFAFA;
 }
 
-/* line 464, ../sass/style.scss */
+/* line 468, ../sass/style.scss */
 #sponsor {
   background-color: white;
   padding-top: 100px;
   padding-bottom: 100px;
   position: relative;
 }
-/* line 469, ../sass/style.scss */
+/* line 473, ../sass/style.scss */
 #sponsor .container {
   background: white;
 }
-/* line 474, ../sass/style.scss */
+/* line 478, ../sass/style.scss */
 #sponsor .container .section .row .col img {
   filter: grayscale(100%);
   cursor: pointer;
   transition: all .3s ease-in-out;
 }
-/* line 478, ../sass/style.scss */
+/* line 482, ../sass/style.scss */
 #sponsor .container .section .row .col img:hover {
   filter: grayscale(0%);
   transition: all .3s ease-in-out;
 }
 
-/* line 490, ../sass/style.scss */
+/* line 494, ../sass/style.scss */
 .page-footer {
   padding-top: 30px;
   background: #353736;
   position: relative;
 }
-/* line 497, ../sass/style.scss */
+/* line 501, ../sass/style.scss */
 .page-footer .container .row div a {
   color: white;
   padding: 0 5px;
 }
-/* line 504, ../sass/style.scss */
+/* line 508, ../sass/style.scss */
 .page-footer .footer-copyright {
   border-bottom: 1px solid #333534;
   padding: 0;
   background-color: #333534;
 }
-/* line 509, ../sass/style.scss */
+/* line 513, ../sass/style.scss */
 .page-footer .footer-copyright .container p {
   color: white;
   line-height: 1em;
 }
-/* line 512, ../sass/style.scss */
+/* line 516, ../sass/style.scss */
 .page-footer .footer-copyright .container p a {
   color: white;
   padding: 0 5px;
